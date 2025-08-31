@@ -1,0 +1,84 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Quiz Generator - Learn Smarter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧠 AI Quiz Generator</h1>
+            <p>Transform your notes into interactive quizzes instantly!</p>
+        </header>
+
+        <!-- Note Input Section -->
+        <section class="input-section">
+            <h2>📝 Paste Your Notes</h2>
+            <textarea 
+                id="notesInput" 
+                placeholder="Paste your study notes here... (e.g., 'The mitochondria is the powerhouse of the cell. It produces ATP through cellular respiration...')"
+                rows="8"
+            ></textarea>
+            <div class="input-controls">
+                <select id="quizType">
+                    <option value="mcq">Multiple Choice Questions</option>
+                    <option value="flashcard">Flashcards</option>
+                </select>
+                <button id="generateBtn" onclick="generateQuiz()">
+                    ✨ Generate Quiz
+                </button>
+            </div>
+        </section>
+
+        <!-- Loading State -->
+        <div id="loadingState" class="loading hidden">
+            <div class="spinner"></div>
+            <p>AI is creating your quiz questions...</p>
+        </div>
+
+        <!-- Quiz Display Section -->
+        <section id="quizSection" class="quiz-section hidden">
+            <div class="quiz-header">
+                <h2 id="quizTitle">Your AI-Generated Quiz</h2>
+                <div class="quiz-controls">
+                    <span id="questionCounter">Question 1 of 5</span>
+                    <button id="prevBtn" onclick="previousQuestion()" disabled>← Previous</button>
+                    <button id="nextBtn" onclick="nextQuestion()">Next →</button>
+                </div>
+            </div>
+
+            <!-- Question Display -->
+            <div id="questionContainer" class="question-container">
+                <div class="question">
+                    <h3 id="questionText">Loading question...</h3>
+                    <div id="optionsContainer" class="options"></div>
+                    <div id="flashcardAnswer" class="flashcard-answer hidden">
+                        <button onclick="revealAnswer()" id="revealBtn">Show Answer</button>
+                        <div id="answerText" class="answer-text hidden"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz Results -->
+            <div id="resultsContainer" class="results hidden">
+                <h3>Quiz Complete! 🎉</h3>
+                <div id="scoreDisplay"></div>
+                <button onclick="restartQuiz()">Generate New Quiz</button>
+            </div>
+        </section>
+
+        <!-- Quiz History -->
+        <section class="history-section">
+            <h3>📚 Previous Quizzes</h3>
+            <div id="historyContainer">
+                <p class="empty-state">No previous quizzes yet. Generate your first one!</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
