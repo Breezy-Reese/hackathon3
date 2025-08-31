@@ -211,4 +211,4 @@ SECRET_KEY=your-secure-secret-key
 
 ---
 
-**Built with ❤️ for [Hackathon Name]**
+**Built with ❤️ for Vibecoding Hackathon**
