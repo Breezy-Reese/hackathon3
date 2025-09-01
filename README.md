@@ -354,13 +354,11 @@ INTASEND_SECRET_KEY=your_intasend_secret
 6. **Educational Value**: Directly supports global education improvement goals
 
 ## 👨‍💻 **Developer Information**
-
-**Name**: Yvonne [Your Last Name]
 **Role**: Full-Stack Developer & AI Integration Specialist
 **Skills Demonstrated**: Python, JavaScript, AI/ML, Database Design, Cloud Deployment, UX/UI Design
 **Contact**: [Your Email]
-**GitHub**: https://github.com/psychokeed/hackathon3
-**LinkedIn**: [Your LinkedIn Profile]
+**GitHub**: [https://github.com/psychokeed/hackathon3](https://github.com/Breezy-Reese/hackathon3.git)
+
 
 ## 🎬 **Demo Resources**
 
