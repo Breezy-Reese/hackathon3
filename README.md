@@ -357,7 +357,7 @@ INTASEND_SECRET_KEY=your_intasend_secret
 **Role**: Full-Stack Developer & AI Integration Specialist
 **Skills Demonstrated**: Python, JavaScript, AI/ML, Database Design, Cloud Deployment, UX/UI Design
 **Contact**: [Your Email]
-**GitHub**: [https://github.com/psychokeed/hackathon3](https://github.com/Breezy-Reese/hackathon3.git)
+**GitHub**:(https://github.com/Breezy-Reese/hackathon3.git)
 
 
 ## 🎬 **Demo Resources**
