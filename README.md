@@ -28,7 +28,7 @@ Visit: https://hackathon3-306b.onrender.com
 #### Setup Commands
 ```bash
 # Clone the repository
-git clone https://github.com/psychokeed/hackathon3
+https://github.com/Breezy-Reese/hackathon3.git
 cd hackathon3
 
 # Create virtual environment
