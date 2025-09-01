@@ -392,7 +392,7 @@ History: "The Industrial Revolution began in Britain during the late 18th centur
 
 **For Judges and Stakeholders:**
 - **Live Demo**: https://hackathon3-306b.onrender.com (available 24/7)
-- **Source Code**: https://github.com/psychokeed/hackathon3 (fully documented)
+- **Source Code**: https://github.com/Breezy-Reese/hackathon3.git (fully documented)
 - **Technical Questions**: [Your Email]
 - **Business Inquiries**: [Your Email]
 
